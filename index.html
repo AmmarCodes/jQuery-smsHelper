@@ -1,0 +1,103 @@
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
+
+  <title>jQuery SMS Helper</title>
+  <meta name="description" content="jQuery plugin helps with handling the client-side SMS text fields">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">jQuery SMS Helper</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">jQuery plugin helps with handling the client-side SMS text fields</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/AAlakkad/jQuery-smsHelper/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/AAlakkad/jQuery-smsHelper/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/AAlakkad/jQuery-smsHelper" class="code">View jQuery SMS Helper on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <h1>jQuery smsHelper plugin</h1>
+
+<p>version 1.0</p>
+
+<p>Common functions for handling the client-side sms input elements are combined with this plugin.</p>
+
+<h2>Features</h2>
+
+<ul>
+<li>Count the total characters of a text element.</li>
+<li>Count how many SMSs (chunks) the text element will produce (after calculation of the Unicode characters).</li>
+<li>The possiblility to limit the text element to a specific number of SMSs.</li>
+<li>Stylizable output (characters and SMSs count).</li>
+</ul><h2>How to use?</h2>
+
+<ul>
+<li>Include the jQuery file, e.g.
+<code>
+</code>
+</li>
+<li>Include the plugin file, e.g.
+<code>
+</code>
+</li>
+<li>Call the plugin on specific text element, e.g.
+<code>
+ 
+  $(document).ready(function(){
+        $(&amp;quot;#text1&amp;quot;).smsHelper();
+    });
+</code>
+</li>
+</ul><h2>Options:</h2>
+
+<ul>
+<li>infoId: the element ID which will contains the message information (characters and chunks count).</li>
+<li>infoText: the text which will be displayed before the message information.</li>
+<li>firstBracket: the character(s) which will be displayed instead of "(" if you want so.</li>
+<li>lastBracket: the character(s) which will be displayed instead of ")" if you want so.</li>
+<li>limit: boolean to determine wether you want to limit the characters or not.</li>
+<li>chunks: the number of allowed message to be contained.</li>
+</ul><p>The plugin on <a href="https://github.com/AAlakkad/jQuery-smsHelper">Github</a>. </p>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/AAlakkad" class="avatar"><img src="https://secure.gravatar.com/avatar/ecc1130ce340f5080afd8f2c9962948a?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="48" height="48"/></a> <a href="https://github.com/AAlakkad">AAlakkad</a> maintains <a href="https://github.com/AAlakkad/jQuery-smsHelper">jQuery SMS Helper</a></p>
+
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br/>theme by <a href="http://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/AAlakkad/jQuery-smsHelper/tarball/master" class="tar">tar</a><a href="https://github.com/AAlakkad/jQuery-smsHelper/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+  
+</body>
+</html>
