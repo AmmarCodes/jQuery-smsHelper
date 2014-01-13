@@ -2,10 +2,9 @@
  * smsHelper - a jQuery plugin helps with handling the client-side SMS text fields
  * 
  * @version 1.0
- * @doc http://alakkad.me/blog/jquery-smshelper-plugin/
  * @author Ammar Alakkad <am.alakkad@gmail.com>
- * @website http://alakkad.me/
- * @license http://www.ojuba.org/wiki/_export/xhtml/waqf/license
+ * @website http://aalakkad.github.io
+ * @license MIT
  */
 (function($) {
 	$.fn.extend({
