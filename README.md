@@ -16,28 +16,22 @@ How to use?
 - Include the jQuery file
 
 ``` HTML
-<code>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-</code>
 ```
 - Include the plugin file
 
 ``` HTML
-<code>
-    <script type="text/javascript" src="jquery-smshelper.min.js"></script> 
-</code>
+<script type="text/javascript" src="jquery-smshelper.min.js"></script> 
 ```
 - Call the plugin on specific text element, e.g.
 
 ``` HTML
-<code>
-    <textarea id="text1"></textarea>
-    <script type="text/javascript"> 
-      $(document).ready(function(){
-    		$("#text1").smsHelper();
-    	});
-    </script>
-</code>
+<textarea id="text1"></textarea>
+<script type="text/javascript"> 
+  $(document).ready(function(){
+		$("#text1").smsHelper();
+	});
+</script>
 ```
 
 Options:
