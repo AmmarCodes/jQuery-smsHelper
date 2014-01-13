@@ -14,18 +14,21 @@ Features
 How to use?
 -----------
 - Include the jQuery file
+
 ``` HTML
 <code>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 </code>
 ```
 - Include the plugin file
+
 ``` HTML
 <code>
     <script type="text/javascript" src="jquery-smshelper.min.js"></script> 
 </code>
 ```
 - Call the plugin on specific text element, e.g.
+
 ``` HTML
 <code>
     <textarea id="text1"></textarea>
